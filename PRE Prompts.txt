@@ -1,0 +1,10 @@
+timer que controla los ticks de accion en forma de loop cada 5 segundos
+en cada tick busca 2 números  aleatorios del 0 al 9 y 2 posiciones de x para lanzarlos
+el jugador solo se puede mover para izquierda y derecha debiendo recolectar la caja con menor numero o la primera que este en su trayectoria
+antes de que se ejecute el próximo tick si aun no recolecto ninguna de las cajas suma los puntos de la mas alta
+el nivel dura 30 segundos y se debe mostrar un contador descendente en la pantalla
+se debe acumular los puntos y se muestran en la esquina superior
+usar como asset para el player un rectángulo se color blanco y un cuadrado de color rojo para las cajas de los números. el numero debe estar centrado dentro de cuadrado y de color blanco
+cuando se recolectee un numero inmediatamente caera el próximo par de números
+al terminar el tiempo iniciar la escena de juego completado mostrando el puntaje obtenido
+
